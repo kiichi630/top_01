@@ -1,5 +1,5 @@
 .header {
-  padding: 20px;
+  padding: 15px;
 }
 
 .head {
@@ -32,4 +32,8 @@
   display: flex;
   justify-content: space-around;
   font-size: 10px;
+}
+
+img {
+  width: 100%;
 }
