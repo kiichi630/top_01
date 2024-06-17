@@ -11,6 +11,7 @@
 
 .head h1 {
   font-size: 16px;
+  color: #333333;
 }
 
 .head_btn_01 {
@@ -32,8 +33,38 @@
   display: flex;
   justify-content: space-around;
   font-size: 10px;
+  color: #333333;
 }
 
 img {
   width: 100%;
+}
+
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 25px;
+}
+
+.sec_01 {
+  margin-top: 60px;
+}
+
+.content_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content_left h1 {
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.content_left p {
+  font-size: 20px;
+  color: #666666;
 }
