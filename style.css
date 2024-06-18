@@ -44,7 +44,7 @@ img {
 .wrapper {
   max-width: 1440px;
   width: 100%;
-  padding: 0 25px;
+  padding: 0 25px 0 30px;
 }
 
 .sec_01 {
@@ -93,4 +93,35 @@ img {
   font-size: 18px;
   color: #666666;
   margin-top: 20px;
+}
+
+.sec_03 {
+  margin: 100px 0 80px;
+}
+
+.content_03{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EEEEEE;
+  padding: 40px;
+}
+
+.content_03 .content_left {
+  width: 32%;
+}
+
+.content_03 .content_right {
+  width: 67%;
+}
+
+.content_03 .content_right h1 {
+  font-size: 30px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.content_03 .content_right p {
+  font-size: 18px;
+  color: #666666;
 }
