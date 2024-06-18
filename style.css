@@ -127,7 +127,7 @@ img {
 }
 
 .sec_04 {
-  margin: 100px 0 80px 0;
+  margin: 100px 0;
 }
 
 .sec_04 h1 {
@@ -156,4 +156,55 @@ img {
 .content_04 .content_box p {
   font-size: 16px;
   color: #666666;
+}
+
+.service_btn {
+  background-color: #CCCCCC;
+  padding: 25px 0;
+}
+
+.service_box {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 20px;
+}
+
+.shop_box {
+  background-color: white;
+  padding: 70px 155px;
+  text-align: center;
+}
+
+.contact_box {
+  background-color: white;
+  padding: 70px 155px;
+  text-align: center;
+}
+
+.shop_box h2 {
+  margin-bottom: 40px;
+  font-size: 26px;
+  color: #333333;
+}
+
+.shop_btn {
+  padding: 20px 110px;
+  background-color: #FF6699;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.contact_box h2 {
+  margin-bottom: 40px;
+  font-size: 26px;
+  color: #333333;
+}
+
+.contact_btn {
+  padding: 20px 110px;
+  background-color: green;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 18px;
 }
