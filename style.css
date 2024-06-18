@@ -171,13 +171,13 @@ img {
 
 .shop_box {
   background-color: white;
-  padding: 70px 155px;
+  padding: 70px 145px;
   text-align: center;
 }
 
 .contact_box {
   background-color: white;
-  padding: 70px 155px;
+  padding: 70px 145px;
   text-align: center;
 }
 
@@ -207,4 +207,20 @@ img {
   color: #ffffff;
   margin-top: 20px;
   font-size: 18px;
+}
+
+.information {
+  text-align: center;
+  margin: 600px 0 80px;
+}
+
+.information h3 {
+  color: #333333;
+  font-size: 20px;
+}
+
+.information p {
+  color: #333333;
+  font-size: 20px;
+  margin-top: 10px;
 }
