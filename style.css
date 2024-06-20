@@ -246,3 +246,9 @@ img {
 .link_06 {
   margin-bottom: 10px;
 }
+
+footer p {
+  text-align: center;
+  margin: 20px 0;
+  color: #666666;
+}
