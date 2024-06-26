@@ -1,0 +1,419 @@
+.header {
+  padding: 30px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.head h1 {
+  font-size: 28px;
+  color: #333333;
+}
+
+.head_btn_01 {
+  color: #ffffff;
+  background-color: #FF6699;
+  font-size: 18px;
+  padding: 20px 60px;
+  margin-right: 15px;
+}
+
+.head_btn_02 {
+  color: #ffffff;
+  background-color: green;
+  font-size: 18px;
+  padding: 20px 60px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  color: #333333;
+}
+
+.img {
+  width: 100%;
+}
+
+.mv img {
+  width: 1440px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.sec_description {
+  margin: 80px 0;
+}
+
+.sec_description .content {
+  text-align: center;
+}
+
+.sec_description .content h1 {
+  font-size: 30px;
+  margin: 30px 0;
+}
+
+.sec_description .content p {
+  font-size: 16px;
+}
+
+form {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 30px 0 0 0;
+}
+
+.content_box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px
+}
+
+.content_box_02 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px
+}
+
+
+.content_left {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  margin: 0 20px;
+}
+
+.required {
+  background-color: #FF6699;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.content_right {
+  width: 70%;
+}
+
+input {
+  border: 1px solid #DDDDDD;
+  width: 100%;
+  padding: 10px;
+}
+
+select {
+  border: 1px solid #DDDDDD;
+  width: 400px;
+  padding: 10px;
+  color: #DDDDDD;
+}
+
+textarea {
+  border: 1px solid #DDDDDD;
+  width: 100%;
+  padding: 10px;
+}
+
+.content_right_02 {
+  display: flex;
+  width: 70%;
+}
+
+.privacy_policy {
+  display: flex;
+  align-items: center;
+}
+
+input[type=checkbox] {
+  width: 15px;
+}
+
+.privacy_policy a {
+  margin: 0 5px;
+  color: green;
+  border-bottom: 1px solid green;
+  padding-bottom: 3px;
+}
+
+.sec_confirmation {
+  margin: 80px 0;
+}
+
+.confirmation_btn {
+  text-align: center;
+}
+
+.confirmation_btn a {
+  background-color: green;
+  color: #ffffff;
+  padding: 20px 120px;
+}
+
+.service_btn {
+  background-color: #CCCCCC;
+  padding: 25px 0;
+}
+
+.service_box {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 20px;
+}
+
+.shop_box {
+  background-color: white;
+  padding: 70px 145px;
+  text-align: center;
+}
+
+.contact_box {
+  background-color: white;
+  padding: 70px 145px;
+  text-align: center;
+}
+
+.shop_box h2 {
+  margin-bottom: 40px;
+  font-size: 26px;
+  color: #333333;
+}
+
+.shop_btn {
+  padding: 20px 110px;
+  background-color: #FF6699;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.contact_box h2 {
+  margin-bottom: 40px;
+  font-size: 26px;
+  color: #333333;
+}
+
+.contact_btn {
+  padding: 20px 110px;
+  background-color: green;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.information {
+  text-align: center;
+  margin: 600px 0 80px;
+}
+
+.information h3 {
+  color: #333333;
+  font-size: 20px;
+}
+
+.information p {
+  color: #333333;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.link_01 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 40px 40px 80px 40px;
+}
+
+.link_02 {
+  display: flex;
+  flex-direction: column;
+}
+
+.link_01 a {
+  font-size: 18px;
+  color: #666666;
+}
+
+.link_06 {
+  margin-bottom: 10px;
+}
+
+footer p {
+  text-align: center;
+  margin: 20px 0;
+  color: #666666;
+}
+
+@media only screen and (max-width:767px){
+  .header {
+    padding: 10px;
+  }
+
+  .head {
+    margin-bottom: 20px
+  }
+
+  .head h1 {
+    font-size: 14px;
+  }
+
+  .head_btn_01 {
+    font-size: 8px;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .head_btn_02 {
+    font-size: 8px;
+    padding: 5px 10px;
+  }
+
+  .nav ul {
+    font-size: 8px;
+  }
+
+  .mv img {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .sec_description {
+    margin: 20px 0;
+  }
+
+  .sec_description .content h1 {
+    font-size: 22px;
+    margin: 20px 0;
+  }
+
+  .sec_description .content p {
+    font-size: 12px;
+  }
+
+  .info {
+    font-size: 18px;
+  }
+
+  .required {
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  .content_box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+.content_left {
+  margin-bottom: 10px;
+  }
+
+  .content_right {
+    width: 80%;
+    margin-left: 20px;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  .content_box_02 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .content_right_02 {
+    margin-left: 20px;
+  }
+
+  input[type=checkbox] {
+    width: 10px;
+  }
+
+  .sec_confirmation {
+    margin: 50px 0;
+  }
+
+  .confirmation_btn a {
+    padding: 20px 80px;
+  }
+
+
+  .service_box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+  }
+
+  .shop_box {
+    padding: 20px 50px;
+  }
+
+  .shop_box h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .shop_btn {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  .contact_box {
+    padding: 20px 50px;
+  }
+
+  .contact_box h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .contact_btn {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  .information {
+    margin: 80px 0 20px 0;
+  }
+
+  .information h3 {
+    font-size: 14px;
+  }
+
+  .information p {
+    font-size: 12px;
+  }
+
+  .link_01 {
+    padding: 20px 20px 30px 20px;
+  }
+
+  .link_01 a {
+    font-size: 10px;
+  }
+
+  footer p {
+    font-size: 10px;
+    margin: 10px 0;
+  }
+}
