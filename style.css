@@ -29,7 +29,7 @@
   padding: 20px 60px;
 }
 
-.nav ul {
+.head_nav_list {
   display: flex;
   justify-content: space-around;
   font-size: 16px;
@@ -276,7 +276,7 @@ footer p {
     padding: 5px 10px;
   }
 
-  .nav ul {
+  .head_nav_list {
     font-size: 8px;
   }
 
